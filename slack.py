@@ -1,7 +1,7 @@
 import requests
 import json
 
-with open("./slack_webhook_url.txt")as f:
+with open("./private/slack_webhook_url.txt")as f:
     SLACK_WEBHOOK_URL = f.read()
 
 def send_message(message):
